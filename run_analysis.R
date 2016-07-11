@@ -91,4 +91,4 @@ dt <- merge(dtActivityLabels, dt, by = 'activityID', all.x = TRUE)
 # columns from 3 onwards, and group by activityLabel and subjectID columns.
 tidydt <- dt[, lapply(.SD, mean), by='activityLabel,subjectID', .SDcol = names(dt)[4:ncol(dt)]]
 
-write.table(tidydt, './tidyData.txt', row.names = TRUE, sep=',')
+write.table(tidydt, './tidyData.txt', row.names = FALSE, sep=',')
