@@ -12,4 +12,4 @@ Tidy Dataset file tidyData.txt
 
 ## Code Book
 
-The Code Book for the Tidy Dataset can be found in CodeBook.md
+The Code Book for the Tidy Dataset can be found in CodeBook.md, along with the Methodology for run_analysis.R
