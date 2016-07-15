@@ -26,12 +26,12 @@ The run_analysis.R script takes the following steps to transform the Raw Dataset
 3.3 Mag is substituded with Magnitude.
 4. Loads 'UCI HAR Dataset/activity_labels.txt' file into dtActivityLabels and the columns are renamed activityID and activityLabel
 5. The following Files in 'train' and 'test' folders are loaded into individual DataTables.
-..1. subject_train.txt
-..2. X_train.txt
-..3. y_train.txt
-..4. subject_test.txt
-..5. X_test.txt
-..6. y_text.txt
+	1. subject_train.txt
+	2. X_train.txt
+	3. y_train.txt
+	4. subject_test.txt
+	5. X_test.txt
+	6. y_text.txt
 6. The subject, X and Y Train and Test datatables are  merged, using row bind.
 7. The Merged subject dataset's column is renamed as subjectID
 8. The Merged Y dataset's column is renamed as activityID.
