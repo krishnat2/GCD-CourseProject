@@ -21,9 +21,9 @@ The run_analysis.R script takes the following steps to transform the Raw Dataset
 1. Downloads the Raw Data Set in .ZIP Archive Format, using the url provided.
 2. UnZIPs the archieve file using the utility function unzip()
 3. Loads 'UCI HAR Dataset/features.txt' file to dtFeatures DataTable and extracts the Measurements with mean() and std() in the name. These Names are cleaned up, so they are descriptive. 
-3.1 t and f are substituded with Time and Frequency. 
-3.2 () are removed
-3.3 Mag is substituded with Magnitude.
+	1. t and f are substituded with Time and Frequency. 
+	2. () are removed
+	3. Mag is substituded with Magnitude.
 4. Loads 'UCI HAR Dataset/activity_labels.txt' file into dtActivityLabels and the columns are renamed activityID and activityLabel
 5. The following Files in 'train' and 'test' folders are loaded into individual DataTables.
 	1. subject_train.txt
