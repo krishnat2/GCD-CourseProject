@@ -85,7 +85,7 @@ colnames(dt)[3:ncol(dt)] <- as.vector(dtFeatures$featureName)
 dt <- merge(dtActivityLabels, dt, by = 'activityID', all.x = TRUE)
 
 
-# Section 3: Independent Tindy Data set with the average of each variable for each activity and each subject
+# Section 3: Independent Tidy Data set with the average of each variable for each activity and each subject
 
 # Now to extract the second data set, we use lapply to determine the mean of all the 
 # columns from 3 onwards, and group by activityLabel and subjectID columns.
